@@ -1,6 +1,7 @@
 {
   "name": "starwars",
   "version": "0.1.0",
+  "homepage": "https://dimitry-prog.github.io/starWars__React/",
   "private": true,
   "dependencies": {
     "classnames": "^2.3.1",
@@ -28,16 +29,14 @@
       "react-app",
       "react-app/jest"
     ],
-    "overrides": [
-      {
-        "files": [
-          "**/*.stories.*"
-        ],
-        "rules": {
-          "import/no-anonymous-default-export": "off"
-        }
+    "overrides": [{
+      "files": [
+        "**/*.stories.*"
+      ],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
       }
-    ]
+    }]
   },
   "browserslist": {
     "production": [
