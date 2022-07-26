@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.PeopleNavigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: var(--spacing-medium);
+}
+
+.PeopleNavigation__item {
+  width: 100px;
+}
+
+.PeopleNavigation__link {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.PeopleNavigation__button {
+  width: 100%;
+  padding: var(--spacing-medium);
+  cursor: pointer;
+  margin-bottom: var(--spacing-large);
+}

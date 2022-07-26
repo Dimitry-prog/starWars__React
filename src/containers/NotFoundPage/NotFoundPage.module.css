@@ -1,0 +1,21 @@
+  .notFoundPage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .notFoundPage__text {
+    margin: 0;
+    color: var(--color-white);
+    font-size: var(--font-size-h2);
+    text-shadow: var(--text-shadow-blue);
+  }
+  
+  .notFoundPage__img {
+    width: 280px;
+    object-fit: cover;
+    height: 260px;
+    padding-bottom: var(--spacing-large);
+  }
