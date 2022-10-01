@@ -1,5 +1,7 @@
 # starWars__React
 
+Project to explore react/redux features and their capabilities
+
 * React
 * Redux
 * React contexts
